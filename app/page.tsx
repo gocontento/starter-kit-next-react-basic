@@ -1,7 +1,7 @@
 import { createClient } from '@/lib/contento'
 import { draftMode } from 'next/headers'
 import { notFound } from 'next/navigation'
-import GeneralPage from '@/components/pages/GeneralPage'
+
 
 export default async function page() {
   const content = await createClient(draftMode().isEnabled)
@@ -10,5 +10,5 @@ export default async function page() {
       notFound()
     })
 
-  return <GeneralPage initialContent={content} />
+  return <div>{content.fields.title.text}</div>
 }
