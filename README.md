@@ -1,7 +1,7 @@
 ## Welcome to the Basic Starter Kit for Contento
 
 This is a basic starter kit that has the Contento SDKs and API calls required to connect your front end code to your Contento site. It’s designed to get you started using Contento, and is built with a familiar and popular
-tech stack ([Next.js](https://nextjs.org) & [Tailwind CSS](https://tailwindcss.com)).
+tech stack ([Next.js](https://nextjs.org).
 
 ## Getting Started
 
