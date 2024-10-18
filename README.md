@@ -1,6 +1,10 @@
-## Welcome to the Basic Starter Kit for Contento
+## Contento Basic Starter Kit
 
 This is a basic starter kit that has the Contento SDKs and API calls required to connect your front end code to your Contento site. It’s designed to get you started using Contento, and is built with [Next.js](https://nextjs.org).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;☯️ [Contento Library Site](https://app.contento.io/library/site-starters?kit=s_01j8Fgt0RKMd5ApH62Vry4TC7V)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🎓 [User Guide](https://www.contento.io/docs/guides/starter-kits/basic)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄 [Contento Docs](https://www.contento.io/docs)
 
 ## Getting Started
 
