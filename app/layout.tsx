@@ -1,19 +1,23 @@
-import "/app/globals.css"
+import { createClient } from '@/lib/contento'
+import '/app/globals.css'
+import AnnouncementBar from './AnnouncementBar'
 
 export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
-
+  const announcementBar = await createClient().getContentByType({
+    contentType: 'announcement_bar',
+  })
 
   return (
-    <html
-      lang="en"
-      suppressHydrationWarning
-    >
+    <html lang="en" suppressHydrationWarning>
       <body>
-          <main className="flex-auto">{children}</main>
+        {announcementBar && (
+          <AnnouncementBar block={announcementBar.content[0]} />
+        )}
+        <main className="main">{children}</main>
       </body>
     </html>
   )

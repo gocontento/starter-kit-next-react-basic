@@ -1,1 +1,32 @@
 /* ADD YOUR CSS HERE */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #14b8a6;
+}
+
+.banner-text {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+
+.banner-text a {
+  color: white;
+}
+
+.main {
+  padding: 20px;
+}
